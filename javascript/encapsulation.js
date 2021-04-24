@@ -12,5 +12,4 @@ class Tiger{
 const royal = new Tiger('Royal Bengal');
 royal.name = 'Pormanobic Bengal';
 royal.location = 'Borishal';
-
 royal.run();

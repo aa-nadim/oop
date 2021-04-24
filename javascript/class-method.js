@@ -16,6 +16,5 @@ class Hero {
         return 'Price is too high, i can not buy';
     }
 }
-
 const catMan = new Hero('catman', 'Deep Khamsi');
 console.log(catMan.goForGrocery(100));

@@ -12,6 +12,7 @@ class Animal {
         return `${animal2.name} is Faster`;
     }
 }
+
 const myRat = new Animal('rat', 12);
 const myDog = new Animal('dog', 50);
 // console.log(myRat.category)

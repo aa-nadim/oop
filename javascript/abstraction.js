@@ -5,7 +5,6 @@ class Animal{
         throw new Error("You must implement talk method")
     }
 }
-
 class Cat extends Animal{
     talk(){
         console.log('meow meow');

@@ -2,7 +2,6 @@ class A {
     constructor() {
         this.counter = 0;
     }
-
     handleClick = () => {
         console.log('inside arrow', this)
         this.counter++;
@@ -13,7 +12,6 @@ class A {
         this.counter++;
     }
 }
-
 const a = new A();
 console.log(a.counter)
 setTimeout(a.handleClick, 0)

@@ -6,7 +6,6 @@ class Circle {
         return Math.PI * Math.pow(this.radius, 2);
     }
 }
-
 class Rectangle {
     constructor(width, height){
         this.width = width;
