@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1663967198 source:c:\users\asus\desktop\object-oriented-programming\myproject\main.cpp
+	<iostream>
+	"myfirstclass.h"
+
+1663967051 c:\users\asus\desktop\object-oriented-programming\myproject\myfirstclass.h
+
+1663967160 source:c:\users\asus\desktop\object-oriented-programming\myproject\myfirstclass.cpp
+	"myfirstclass.h"
+	<iostream>
+
