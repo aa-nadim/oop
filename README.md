@@ -50,20 +50,20 @@ private:
 	int age;
 public:
 	Person(string name, int age) {
-        this->name = name;
-        this->age = age;
+ 	this->name = name;
+  this->age = age;
 	}
 	void setName(string name) {
-        this->name = name;
+  this->name = name;
 	}
 	string getName() {
-        return name;
+  return name;
 	}
 	void setAge(int age) {
-        this->age = age;
+  this->age = age;
 	}
 	int getAge() {
-        return age;
+  return age;
 	}
 };
 
@@ -87,4 +87,39 @@ OUTPUT:
 	Age: 30
 	Name: Abdul Awal Nadim
 	Age: 26
+```
+
+Abstraction
+-
+```
+#include <iostream>
+using namespace std;
+
+class implementAbstraction {
+private:
+	int a, b;
+
+public:
+	// method to set values of private members
+	void set(int x, int y){
+		a = x;
+		b = y;
+	}
+
+	void display(){
+		cout << "a = " << a << endl;
+		cout << "b = " << b << endl;
+	}
+};
+
+int main(){
+	implementAbstraction obj;
+	obj.set(10, 20);
+	obj.display();
+	return 0;
+}
+
+OUTPUT:
+	a = 10
+	b = 20
 ```
