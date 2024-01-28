@@ -1,9 +1,11 @@
 # Constructor
 
-- what is a constructor?
--> it is a special type of function that is used to `initialize the object`.
+what is a constructor?
+-
+- it is a special type of function that is used to `initialize the object`.
 
-- what are the properties of constructor?
+what are the properties of constructor?
+-
 - constructor is a special type of function.
 - constructor has the same name as that of the class it belongs.
 - it has no return type not even void.
